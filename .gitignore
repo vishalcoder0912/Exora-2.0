@@ -8,6 +8,17 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
+.next
+tsconfig.tsbuildinfo
+
+# Environment / secret files (never commit)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
 dist
 dist-ssr
 .output
