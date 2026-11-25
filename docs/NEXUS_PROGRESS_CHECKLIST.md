@@ -1,40 +1,14 @@
-# NEXUS — Development Progress Checklist
+# NEXUS — Master development checklist
 
-**Product:** NEXUS — *Your business. Connected. Intelligent. In motion.*
+**Product:** AI-native ERP · Frontend prototype · Lovable · November 2026
 
-**Progress:** 0 / 19 phases completed
-
-Use this checklist to verify real functionality, not just generated pages. Tick a box only after it has been checked in the running app.
-
----
-
-## Progress tracker
-
-| # | Phase | Status |
-|---|-------|--------|
-| 1 | Product foundation | Not started |
-| 2 | Executive dashboard | Not started |
-| 3 | AI intelligence workspace | Not started |
-| 4 | AI tool system | Not started |
-| 5 | HR & Recruitment | Not started |
-| 6 | Finance | Not started |
-| 7 | Sales & CRM | Not started |
-| 8 | Operations | Not started |
-| 9 | Marketing | Not started |
-| 10 | My Tasks | Not started |
-| 11 | Reports | Not started |
-| 12 | Approval system | Not started |
-| 13 | Activity & Audit | Not started |
-| 14 | Settings | Not started |
-| 15 | Global search & notifications | Not started |
-| 16 | Data consistency | Not started |
-| 17 | UI/UX quality | Not started |
-| 18 | Technical quality | Not started |
-| 19 | Demo readiness | Not started |
+Use this as your master tracking checklist. Don't move to the next major phase until the current phase is reasonably complete. Tick a box only after you have actually verified it in the running app.
 
 ---
 
 ## 1. Product foundation
+
+**Checkpoint 1 — Before building modules**
 
 - [ ] Product name and branding are consistent (NEXUS).
 - [ ] The application has a defined design system.
@@ -59,6 +33,8 @@ Use this checklist to verify real functionality, not just generated pages. Tick 
 
 ## 2. Executive dashboard
 
+**Checkpoint 2 — Company overview**
+
 - [ ] KPI cards display data.
 - [ ] KPI numbers are consistent with mock data.
 - [ ] Revenue chart renders.
@@ -78,13 +54,19 @@ Use this checklist to verify real functionality, not just generated pages. Tick 
 - [ ] Clicking attention items opens the correct record or page.
 - [ ] Ask AI button opens the AI workspace.
 
-**Gate:** Dashboard numbers must be sourced from shared data — not manually invented separately inside each card.
+**Gate:** Dashboard numbers must be sourced from shared data—not manually invented separately inside each card.
 
 ---
 
 ## 3. AI intelligence workspace
 
-### Chat experience
+**Checkpoint 3 — The core differentiator**
+
+This is the most important phase of the entire project.
+
+A beautiful ERP is not enough. The AI must demonstrate that it can understand business questions, select appropriate tools, retrieve data, calculate, and produce useful answers.
+
+**Chat experience**
 
 - [ ] AI workspace opens correctly.
 - [ ] Chat input works.
@@ -103,7 +85,7 @@ Use this checklist to verify real functionality, not just generated pages. Tick 
 - [ ] Conversation can be deleted.
 - [ ] History persists after refresh.
 
-### AI intelligence
+**AI intelligence**
 
 - [ ] AI recognizes HR-related questions.
 - [ ] AI recognizes Finance-related questions.
@@ -122,7 +104,7 @@ Use this checklist to verify real functionality, not just generated pages. Tick 
 - [ ] AI offers contextual follow-up suggestions.
 - [ ] AI handles invalid or unsupported questions gracefully.
 
-### AI answer quality
+**AI answer quality**
 
 - [ ] Answers aren't just generic paragraphs.
 - [ ] KPIs are used where appropriate.
@@ -140,6 +122,8 @@ Use this checklist to verify real functionality, not just generated pages. Tick 
 
 ## 4. AI tool system
 
+**Checkpoint 4 — The AI's hands**
+
 - [ ] A central tool registry exists.
 - [ ] Tools are organized by department.
 - [ ] Tools have defined names.
@@ -153,6 +137,8 @@ Use this checklist to verify real functionality, not just generated pages. Tick 
 - [ ] Tool execution is separated from UI components.
 - [ ] Tool results are reused for AI responses.
 - [ ] Tools can update application state where appropriate.
+
+**Initial tools to verify**
 
 | Tool | Expected |
 |------|----------|
@@ -177,6 +163,8 @@ Use this checklist to verify real functionality, not just generated pages. Tick 
 ---
 
 ## 5. HR & Recruitment
+
+**Checkpoint 5 — People management**
 
 - [ ] HR overview loads.
 - [ ] Employee KPI cards work.
@@ -207,6 +195,8 @@ Use this checklist to verify real functionality, not just generated pages. Tick 
 
 ## 6. Finance
 
+**Checkpoint 6 — Financial management**
+
 - [ ] Finance overview loads.
 - [ ] Revenue KPI is correct.
 - [ ] Expenses KPI is correct.
@@ -232,6 +222,8 @@ Use this checklist to verify real functionality, not just generated pages. Tick 
 ---
 
 ## 7. Sales & CRM
+
+**Checkpoint 7 — Sales pipeline**
 
 - [ ] Sales overview loads.
 - [ ] Total leads metric is correct.
@@ -260,6 +252,8 @@ Use this checklist to verify real functionality, not just generated pages. Tick 
 ---
 
 ## 8. Operations
+
+**Checkpoint 8 — Projects and execution**
 
 - [ ] Operations overview loads.
 - [ ] Active projects metric works.
@@ -291,6 +285,8 @@ Use this checklist to verify real functionality, not just generated pages. Tick 
 
 ## 9. Marketing
 
+**Checkpoint 9 — Campaign analytics**
+
 - [ ] Marketing overview loads.
 - [ ] Total marketing spend is correct.
 - [ ] Lead generation metric is correct.
@@ -314,6 +310,8 @@ Use this checklist to verify real functionality, not just generated pages. Tick 
 
 ## 10. My Tasks
 
+**Checkpoint 10 — Personal productivity**
+
 - [ ] All tasks display.
 - [ ] Today's tasks display.
 - [ ] Upcoming tasks display.
@@ -336,6 +334,8 @@ Use this checklist to verify real functionality, not just generated pages. Tick 
 ---
 
 ## 11. Reports
+
+**Checkpoint 11 — Reporting center**
 
 - [ ] Reports page loads.
 - [ ] Report categories are present.
@@ -361,6 +361,8 @@ Use this checklist to verify real functionality, not just generated pages. Tick 
 
 ## 12. Approval system
 
+**Checkpoint 12 — AI is allowed to act, but not recklessly**
+
 - [ ] AI can propose an action.
 - [ ] Action card clearly describes what will happen.
 - [ ] Sensitive actions require approval.
@@ -376,6 +378,8 @@ Use this checklist to verify real functionality, not just generated pages. Tick 
 - [ ] Action status updates.
 - [ ] Audit entry is generated.
 - [ ] Duplicate action execution is prevented where appropriate.
+
+**Test these actions**
 
 - [ ] AI drafts an email.
 - [ ] Email can be edited.
@@ -393,6 +397,8 @@ Use this checklist to verify real functionality, not just generated pages. Tick 
 ---
 
 ## 13. Activity & Audit Log
+
+**Checkpoint 13 — Traceability**
 
 - [ ] Activity page loads.
 - [ ] Activities display.
@@ -417,6 +423,8 @@ Use this checklist to verify real functionality, not just generated pages. Tick 
 
 ## 14. Settings
 
+**Checkpoint 14 — Application configuration**
+
 - [ ] Settings page loads.
 - [ ] General settings are editable.
 - [ ] Company details can be updated.
@@ -433,13 +441,15 @@ Use this checklist to verify real functionality, not just generated pages. Tick 
 - [ ] Notifications settings work.
 - [ ] Changes persist after refresh.
 
-**Gate:** Settings must change application behavior or state — not just change the visual appearance of a toggle.
+**Gate:** Settings must change application behavior or state—not just change the visual appearance of a toggle.
 
 ---
 
 ## 15. Global search & notifications
 
-### Global search
+**Checkpoint 15 — Connected navigation**
+
+**Global search**
 
 - [ ] Search opens.
 - [ ] Keyboard shortcut works.
@@ -453,7 +463,7 @@ Use this checklist to verify real functionality, not just generated pages. Tick 
 - [ ] Results are categorized.
 - [ ] Selecting a result opens the correct record.
 
-### Notifications
+**Notifications**
 
 - [ ] Notification badge count is correct.
 - [ ] Notification panel opens.
@@ -468,6 +478,10 @@ Use this checklist to verify real functionality, not just generated pages. Tick 
 ---
 
 ## 16. Data consistency
+
+**Checkpoint 16 — One source of truth**
+
+This checkpoint is extremely important.
 
 - [ ] Mock data is centralized.
 - [ ] Employees use consistent IDs.
@@ -494,7 +508,11 @@ Use this checklist to verify real functionality, not just generated pages. Tick 
 
 ---
 
-## 17. UI/UX quality
+## 17. UI/UX quality check
+
+**Checkpoint 17 — Premium product quality**
+
+Use this as a visual review before calling any page complete.
 
 - [ ] No overflowing text.
 - [ ] No overlapping components.
@@ -526,6 +544,8 @@ Use this checklist to verify real functionality, not just generated pages. Tick 
 
 ## 18. Technical quality
 
+**Checkpoint 18 — Stable frontend**
+
 - [ ] No console errors.
 - [ ] No React warnings.
 - [ ] No broken routes.
@@ -546,19 +566,59 @@ Use this checklist to verify real functionality, not just generated pages. Tick 
 
 ---
 
-## 19. Final hackathon demo — the 7-minute NEXUS demo
+## 19. Final hackathon demo checklist
 
-1. [ ] **Executive overview** — open the dashboard and explain how the company is performing. Highlight revenue, operational risks, and AI-generated priorities.
+This is your final acceptance test. If you can complete all of these smoothly, you're in a very strong position to present the prototype.
+
+**The 7-minute NEXUS demo**
+
+Run through these scenarios before showing judges.
+
+1. [ ] **Executive overview** — Open the dashboard and explain how the company is performing. Highlight revenue, operational risks, and AI-generated priorities.
 2. [ ] **Ask the AI a complex question** — "Give me a company health report and tell me the three biggest problems we need to solve."
-3. [ ] **Show its intelligence** — reveal tool activity. Show HR, Finance, Sales and Operations functions being called and the retrieved results.
-4. [ ] **Investigate a department** — ask about pending offers, hiring numbers, salary commitments, or overdue follow-ups.
-5. [ ] **Let AI take action** — ask it to draft follow-up emails or create tasks. Review the proposed action and approve it.
-6. [ ] **Verify the action** — show the updated task or email history, then open the audit log to prove the action was recorded.
+3. [ ] **Show its intelligence** — Reveal the tool activity. Show HR, Finance, Sales and Operations functions being called and the retrieved results.
+4. [ ] **Investigate a department** — Ask about pending offers, hiring numbers, salary commitments, or overdue follow-ups.
+5. [ ] **Let AI take action** — Ask it to draft follow-up emails or create tasks. Review the proposed action and approve it.
+6. [ ] **Verify the action** — Show the updated task or email history, then open the audit log to prove the action was recorded.
 7. [ ] **Deliver the vision** — "Instead of navigating six different departments to understand a company, a manager can simply ask the company."
 
 ---
 
-## The 5 things you should never compromise
+## Your progress tracker
+
+Use this to track overall progress without having to tick every individual item when reporting status.
+
+**NEXUS development progress — 0%**
+
+**0 of 19 phases completed**
+
+| # | Phase | Status |
+|---|-------|--------|
+| 1 | Product foundation | Not started |
+| 2 | Executive dashboard | Not started |
+| 3 | AI intelligence workspace | Not started |
+| 4 | AI tool system | Not started |
+| 5 | HR & Recruitment | Not started |
+| 6 | Finance | Not started |
+| 7 | Sales & CRM | Not started |
+| 8 | Operations | Not started |
+| 9 | Marketing | Not started |
+| 10 | My Tasks | Not started |
+| 11 | Reports | Not started |
+| 12 | Approval system | Not started |
+| 13 | Activity & Audit | Not started |
+| 14 | Settings | Not started |
+| 15 | Global search & Notifications | Not started |
+| 16 | Data consistency | Not started |
+| 17 | UI/UX quality | Not started |
+| 18 | Technical quality | Not started |
+| 19 | Demo readiness | Not started |
+
+---
+
+## 20. The 5 things you should never compromise
+
+If Lovable is running short on time or starts cutting corners, protect these five features first:
 
 1. **Real AI tool-calling simulation** — it must select and execute tools against shared data, not just produce text.
 2. **Shared and consistent business data** — HR, Finance, Sales, and Operations must be connected by the same underlying records.
@@ -568,9 +628,9 @@ Use this checklist to verify real functionality, not just generated pages. Tick 
 
 ---
 
-## Phase review prompt
+## What I recommend you do with Lovable
 
-Paste this after every phase:
+After every phase, don't just tell it "continue." Paste this review prompt:
 
 ```text
 Review the current NEXUS implementation against the project requirements and development checklist.
@@ -590,4 +650,4 @@ Do not add new features yet.
 Do not claim something works unless it has actually been verified.
 ```
 
-*Measure progress by how many boxes you can genuinely tick — not by how many pages were generated.*
+**Don't measure your progress by how many pages Lovable generates. Measure it by how many boxes you can genuinely tick.** A smaller, fully connected, intelligent ERP will impress far more than 19 beautiful pages that don't communicate with each other.
